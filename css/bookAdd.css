@@ -1,0 +1,47 @@
+h3{
+    margin:20px 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+    color: #003B73;
+    font-family: Lucida Family,sans-serif ;
+}
+
+section{
+    font-family: Corbel, sans-serif ;
+}
+
+#bookTable{
+    justify-content: space-between;
+    margin-left: 450px;
+}
+
+#bookTable td{
+    vertical-align: top;
+    margin: 15px;
+    height: 40px;
+}
+
+.checkoutFormErrors {
+    margin: 20px 0 0 40px;
+    color: red;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    display: block;
+    background-color: #01588D;
+    border: 2px solid #01588D;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px;
+    height: 25px;
+    width: 230px;
+}
+

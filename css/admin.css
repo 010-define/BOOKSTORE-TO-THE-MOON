@@ -1,0 +1,78 @@
+#bookAdmin{
+    text-align: center;
+    justify-content: space-between;
+    color: #111111;
+    line-height: 30px;
+    border-spacing: 0;
+}
+
+titleStyle{
+    font-size: 14px;
+    background-color: #003B73;
+    color: white;
+    padding:10px;
+    border-top: white 2px solid;
+}
+
+.rowStyle:nth-child(even){
+    font-size: 14px;
+    background-color: #eaeaea;
+}
+
+.rowStyle:nth-child(odd){
+    font-size: 14px;
+    background-color: white;
+}
+#bookId{
+   width: 100px;
+}
+
+#category{
+    width: 130px;
+}
+
+#ISBN{
+    width: 180px;
+}
+
+#price{
+    width: 180px;
+}
+
+.inputStyle{
+    width: 50px;
+}
+
+.submitStyle{
+    background-color: #003B73;
+    border: 2px solid #003B73;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+}
+
+.submitStyle:hover{
+    color: #F6E32F;
+}
+
+#add{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;;
+}
+
+#bookAdd{
+    background-color: #01588D;
+    border: 2px solid #01588D;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    margin: 3px auto 20px auto;
+}

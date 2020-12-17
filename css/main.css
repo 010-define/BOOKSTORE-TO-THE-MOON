@@ -1,0 +1,186 @@
+body {
+    min-width: 900px;
+    font: 1em normal Arial, sans-serif;
+    color: #111111;
+}
+/* rules for the header */
+#header1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    justify-content: space-between;
+}
+
+#header2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003B73;
+    height: 60px;
+    justify-content: flex-end;
+}
+
+/* rules for the left header */
+#logo{
+    display: flex;
+    margin-right: 25px;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+
+#logo h1{
+    color: #7298B0;
+    font-family: Corbel Light, sans-serif;
+    font-size: 28px;
+    line-height: 0.4;
+    margin-left: 10px;
+}
+
+/* rules for the right header */
+#header1Right {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+#dropdown {
+    position: relative;
+    margin-right: 20px;
+}
+
+#dropdownSelect {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #01588D;
+    border: 2px solid #01588D;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+#dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    padding-top: 5px;
+    z-index: 1;
+    background-color: #0076C2;
+    text-align: center;
+    font-size: 13px;
+    line-height: 0.5;
+}
+
+#dropdown:hover #dropdownContent {
+    display: block;
+}
+
+#dropdownContent a {
+    color: white;
+    text-decoration: none;
+}
+
+#dropdownContent a:hover {
+    color: #F6E32F;
+    text-decoration: none;
+}
+
+.loginButton {
+    border: 2px solid #01588D;
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #01588D;
+    text-decoration: none;
+    line-height: 2.2;
+}
+
+.loginButton:hover{
+    background-color: #01588D;
+    color: white;
+}
+
+#searchBoxForm {
+    margin-top: 17px;
+    display: flex;
+    margin-right: -10px;
+}
+
+#searchIcon{
+    width: 25px;
+    height: 25px;
+}
+
+#searchBox {
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid white;
+    background: #003B73;
+    color: white;
+}
+
+#cart{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#cartIcon{
+    display: inline-block;
+}
+
+#cartIcon img{
+    width:30px;
+    height: 30px;
+}
+
+#cartCount{
+    margin: 0 10px 0 5px;
+    color: white;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #01588D;
+    color: white;
+    border: 1px solid;
+    padding: 15px 0;
+    font-size: 0.8em;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 5px 0 0 10px;
+    width: 300px;
+}
+
+#footerLeft a{
+    padding-top: 12px;
+}
+
+#footerLeft a:link{
+    color: white;
+}
+
+#footerLeft a:visited{
+    color: white;
+}
+
+#footerRight {
+    display: flex;
+    color: white;
+    margin-right: 100px;
+    width: 80px;
+}
+
+#footerRight a{
+    margin: 5px;
+}

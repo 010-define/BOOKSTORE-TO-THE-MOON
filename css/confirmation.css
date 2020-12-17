@@ -1,0 +1,33 @@
+/* Styles only used on the confirmation page */
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main h1{
+    font-size: 3em;
+    color: #003B73;
+    margin-top: 15px;
+    font-family: Corbel, sans-serif ;
+}
+
+main p {
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.commandButton {
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #01588D;
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+    display: block;
+}

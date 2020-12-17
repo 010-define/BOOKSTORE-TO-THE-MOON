@@ -1,0 +1,37 @@
+section{
+    font-family: Corbel, sans-serif ;
+    margin:30px auto;
+    font-size: 18px;
+}
+
+table{
+    margin: auto;
+}
+
+.trStyle{
+    height: 50px;
+}
+
+.labelStyle{
+    color: #262255;
+    font-weight: bold;
+}
+
+#loginButton{
+    background-color: #01588D;
+    border: 2px solid #01588D;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+}
+
+#loginButton:hover{
+   color: #F6E32F;
+}
+
+.loginErr{
+    color: red;
+}

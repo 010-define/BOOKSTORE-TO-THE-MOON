@@ -1,0 +1,111 @@
+/* Styles only used on the checkout page */
+section{
+    font-family: Corbel, sans-serif ;
+    font-size: 18px;
+}
+
+#main{
+    display:flex;
+}
+
+#left{
+    width:50%;
+    margin-left:150px;
+}
+
+#right{
+    width:50%;
+    background-color: #F5F5F5;
+}
+
+/*Styles used for Title in the left side*/
+
+h2{
+    text-align: center;
+    margin-left:10px;
+    padding-top: 10px;
+    font-size: 2.5em;
+    color: #003B73;
+    font-weight: bold;
+    font-family:  Centaur, sans-serif ;
+}
+
+/* Styles used for Customer Input Form */
+
+#formTitleText {
+    max-width: 350px;
+    color: #738290;
+}
+
+.checkoutFormErrors {
+    margin: 20px 0 0 40px;
+    color: red;
+    font-size: smaller;
+}
+
+#checkoutFormErrors label.error {
+    display: block;
+}
+
+#checkoutTable td {
+    vertical-align: top;
+    text-align: right;
+    margin: 15px;
+    height: 40px;
+}
+
+#expDate{
+    display: inline-block;
+}
+
+td select {
+    font-size: 16px;
+    height: 23px;
+    font-family: Corbel, sans-serif ;
+}
+
+#submitButton {
+    height: 20px;
+    border: none;
+    margin: 6px 0 0 4px;
+    text-align: center;
+    background-color: #01588D;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Corbel, sans-serif ;
+}
+
+/* Styles used for Checkout summary */
+
+ul {
+    list-style-type: square;
+    line-height: 150%;
+}
+
+#checkoutSummary {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#checkoutTotals {
+    margin: 40px 40px 38px;
+    padding: 20px 0 20px 30px;
+    border-radius: 4px;
+    width: 275px;
+}
+
+#checkoutTotals td {
+    text-align: right;
+    padding: 5px;
+}
+
+.checkoutPriceColumn {
+    width: 80px;
+    font-weight: bold;
+}
+
+.total {
+    border-top: 1px solid black
+}
+

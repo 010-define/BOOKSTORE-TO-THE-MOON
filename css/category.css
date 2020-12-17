@@ -1,0 +1,147 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* rules for main Left*/
+.mainLeft{
+    width: 20%;
+    text-align: center;
+}
+
+#btn-group .button1 {
+    background-color: #01588D ;
+    border: 2px solid #01588D ;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+#btn-group .button2 {
+    background-color: #0067A9 ;
+    border: 2px solid #0067A9 ;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+#btn-group .button3 {
+    background-color: #0076C2 ;
+    border: 2px solid #0076C2 ;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+#btn-group .button4 {
+    background-color: #1598E8 ;
+    border: 2px solid #1598E8 ;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+#btn-group #btnSelected{
+    color:#F6E32F;
+}
+
+#btn-group a{
+    text-decoration: none;
+}
+
+/* rules for main Right*/
+.mainRight{
+    width: 78%;
+}
+
+.categoryRow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.categoryLeft{
+    width: 200px;
+    padding: 40px 10px;
+    margin-left: 50px;
+    justify-content: left;
+}
+
+.categoryMiddle{
+    width: 780px;
+    height: auto;
+    max-width: 340px;
+    padding: 12px 30px 4px 4px;
+    /*margin-top: -28px;*/
+}
+
+.categoryRight{
+    flex: 200px;
+    max-width: 340px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.categoryImg {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.categoryMiddle h3{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.author{
+    line-height: 1;
+    margin-bottom: -8px;
+}
+
+.isbn{
+    line-height: 1.8;
+}
+
+.price{
+    font-weight: bold;
+    line-height: 2;
+}
+
+.addToCart{
+    background-color: #01588D ;
+    color: white;
+    padding: 10px 32px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    width: 100px;
+    display: inline-block;
+}
+
+.categoryRight a:hover, a:active {
+    background-color: #0076C2;
+    border: 2px solid #0076C2;
+}
+

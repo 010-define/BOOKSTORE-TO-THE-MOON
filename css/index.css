@@ -1,0 +1,76 @@
+
+/* rules for welcome*/
+#welcome{
+    margin:0 10px 0 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#welcome h2{
+    font-size: 4em;
+    color: #003B73;
+    letter-spacing: 3px;
+    margin-bottom: -5px;
+    font-family:  Centaur, sans-serif ;
+}
+
+#welcome h3{
+    font-size: 2em;
+    color: #003B73;
+    margin-top: -5px;
+    margin-bottom: -3px;
+    font-family: Corbel Light, sans-serif ;
+}
+
+#welcome p{
+    font-family: Corbel, sans-serif ;
+    color: #738290;
+}
+
+/* rules for category*/
+#category{
+    margin: 0 10px 0 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#category h2{
+    font: 2em arial narrow, sans-serif;
+}
+
+.categoryRow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.categoryColumn{
+    width: 24%;
+    padding: 0 4px;
+}
+
+.categoryName{
+
+}
+
+.avatar{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.categoryColumn a:link {
+    color: #01588D;
+    text-decoration: none;
+}
+
+.categoryColumn a:hover {
+    color: #A1D7F2;
+    text-decoration: none;
+}
+
+.categoryColumn a:visited{
+    color: #01588D;
+    text-decoration: underline;;
+}
